@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>แบบสำรวจอาหารที่ชอบ</title>
+</head>
+<body>
+    <form action="show.html">
+        <h1>แบบสำรวจอาหารที่ชอบ</h1>
+        <input type="text" name="stdname" id="stdname" placeholder="ชื่อ">
+        <br>
+        <br>
+        <input type="email" name="email" id="email" placeholder="E-mail">
+        <br>
+        <br>
+        <label for="bd">วันเกิด</label>
+        <input type="date" name="bd" id="bd" >
+        <br>
+        <br>
+        <input type="radio" name="gender" id="gender" value="m">
+        <label>ชาย&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" name="gender" id="gender" value="f">
+        <label>หญิง&nbsp;&nbsp;&nbsp;</label>
+        <input type="radio" name="gender" id="gender" value="n">
+        <label>ไม่บอกหรอก</label>
+        <br>
+        <br>
+        <label for="campus">วิทยาเขต</label>
+        <select name="campus" id="campus">
+            <option value="1">บางเขน</option>
+            <option value="2">กำแพงแสน</option>
+            <option value="3">ศรีราชา</option>
+            <option value="4">สกลนคร</option>
+        </select>
+        <br><br>
+        <input type="checkbox" name="curry" id="curry">
+        <label>ข้าวราดแกง&nbsp;&nbsp;&nbsp;</label>
+        <input type="checkbox" name="order" id="order">
+        <label>อาหารตามสั่ง&nbsp;&nbsp;&nbsp;</label>
+        <input type="checkbox" name="noodle" id="noodle">
+        <label>ก๋วยเตี๋ยว&nbsp;&nbsp;&nbsp;</label>
+        <input type="checkbox" name="sweet" id="sweet">
+        <label>ขนม&nbsp;&nbsp;&nbsp;</label>
+        <br>
+        <br>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="อยากบอกว่า"></textarea>
+        <button type="reset">ล้างข้อมูล</button>
+        &nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="submit">ส่งข้อมูล</button>
+    </form>
+</body>
+</html>
